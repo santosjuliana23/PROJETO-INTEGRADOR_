@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 12pt;
+    line-height: 18pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #261f16;
+}
+
+.pagina{
+    background-color: #f2e2c4;
+    width: 21cm;
+    height: 34cm;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.paginaM{
+    height: 36cm;
+}
+
+.conteudo{
+    padding: 2cm 2cm 18pt 3cm;
+}
+
+.conteudo p{
+    text-align: justify;
+    text-indent: 2cm;
+}
+
+.conteudo h1{
+    margin-bottom: 18pt;
+    text-indent: 0cm;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.referencias{
+    padding: 0cm 2cm 3cm 3cm;
+}
+
+.referenciaTitulo{
+    text-align: center;
+    margin-bottom: 18pt;
+    line-height: 1.15;
+}
+
+.referenciaLinks p{
+    text-align: justify;
+    font-size: 12pt;
+    text-align: left;
+    line-height: 12pt;
+    padding-top: 12pt;
+}
