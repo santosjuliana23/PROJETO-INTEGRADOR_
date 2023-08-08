@@ -58,8 +58,7 @@ body{
 
 .referenciaLinks p{
     text-align: justify;
-    font-size: 12pt;
-    text-align: left;
+    font-size: 10pt;
     line-height: 12pt;
     padding-top: 12pt;
 }
@@ -169,4 +168,8 @@ nav {
 }
 #backgroundnav li {
     margin-top: 0;
+}
+
+.mais200{
+  height: 41cm;
 }
