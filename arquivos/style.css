@@ -37,6 +37,7 @@ body{
 .conteudo p{
     text-align: justify;
     text-indent: 2cm;
+    margin-bottom: 15px;
 }
 
 .conteudo h1{
@@ -48,6 +49,7 @@ body{
 
 .referencias{
     padding: 0cm 2cm 3cm 3cm;
+    margin-top: 20px;
 }
 
 .referenciaTitulo{
@@ -316,3 +318,43 @@ nav {
 .hidden {
   display: none;
 }
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  border-radius: 5px;
+  box-shadow: 7px 7px 13px 0px var(--cor-1);
+  padding: 30px;
+  margin: 20px;
+  width: 400px;
+  transition: all 0.3s ease-out;
+  color:#F2E2C4;
+}
+.card:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+ 
+.card p {
+  color: #a3a5ae;
+  font-size: 16px;
+}
+ 
+.image {
+  float: right;
+  max-width: 64px;
+  max-height: 64px;
+}
+
+footer {
+  background-color: #514234; 
+  color:#F2E2C4; 
+  padding: 10px; 
+  position: fixed; 
+  bottom: 0; 
+  width: 100%; 
+  text-align: center; 
+}
+
