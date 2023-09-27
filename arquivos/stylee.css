@@ -1,18 +1,10 @@
-@charset "utf-8";
-
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
-}
-
-.logo {
-  font-size: 50px;
-}
-
-html {
-  overflow-x: hidden;
+  font-size: 12pt;
+  line-height: 18pt;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 :root {
@@ -23,18 +15,8 @@ html {
   --cor-5: #734226;
 }
 
-.oreh {
-  height: 100vh;
-  backdrop-filter: blur(10px);
-}
-
-.hero {
-  height: 100vh;
-  width: 100%;
-  background: url(imagens/livrosespalhados.jpg);
-  background-size: cover;
-  background-position: center;
-  z-index: 999;
+body {
+  background-color: #261f16;
 }
 
 nav {
@@ -44,7 +26,7 @@ nav {
   justify-content: space-between;
   text-align: center;
   width: 100%;
-  background-image: black;
+  background-color: black;
 }
 
 nav .logo {
@@ -95,6 +77,7 @@ nav ul {
 
 nav ul li:hover ul {
   display: inline-flex;
+  align-items: center;
 }
 
 nav ul li ul {
@@ -125,44 +108,95 @@ nav ul li:hover {
   color: white;
 }
 
-.main-img {
-  position: absolute;
-  z-index: 1001;
-  top: 65%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+#logo {
+  font-size: 50px;
 }
 
-.main-img img {
-  position: sticky;
-  width: 450px;
-  height: auto;
-  margin-top: -90px;
-  z-index: 1;
-}
-
-.TP {
-  margin-top: 100px;
-  text-align: center;
-  color: var(--cor-1);
-  font-size: 290px;
-  font-style: italic;
-  transition: all 1s ease;
-  font-family: "Kaushan Script", cursive;
-  font-weight: 900;
-  z-index: 999;
-  margin-right: 100px;
-}
-
-.TP:hover {
-  color: var(--cor-4);
-}
-
-.hero2 {
-  display: none;
-  height: 100vh;
+footer {
+  background-color: #514234;
+  color: #f2e2c4;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
   width: 100%;
-  background: var(--cor-2);
-  background-size: cover;
-  background-position: center;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border-radius: 5px;
+  box-shadow: 7px 7px 13px 0px var(--cor-1);
+  padding: 30px;
+  margin: 20px;
+  width: 400px;
+  transition: all 0.3s ease-out;
+  color: #f2e2c4;
+  margin-top: 120px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+.card p {
+  color: #a3a5ae;
+  font-size: 16px;
+}
+
+.image {
+  float: right;
+  max-width: 64px;
+  max-height: 64px;
+}
+
+.rodape {
+  background-color: #514234;
+  color: #fff;
+  text-align: center;
+  padding: 30px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  position: relative;
+}
+
+.conteudo-rodape {
+  font-size: 16px;
+}
+
+.conteudo-rodape a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.conteudo-rodape a:hover {
+  text-decoration: underline;
+}
+
+#dropdown {
+  top: 14px;
+}
+
+#dropdown li {
+  border-radius: 3rem;
+}
+
+#backgroundnav {
+  display: flex;
+  background-color: rgba(140, 91, 48, 0.7);
+  border-radius: 3rem;
+}
+
+#backgroundnav li {
+  margin-top: 0;
 }
