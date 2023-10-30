@@ -44,7 +44,7 @@ nav {
   justify-content: space-between;
   text-align: center;
   width: 100%;
-  background-image: black;
+  background-color: rgb(28, 22, 22);
 }
 
 nav .logo {
